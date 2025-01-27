@@ -41,7 +41,7 @@ const BotStatusMessages = [
 
 
 const DebugLogs = false; // nie dziala jak cos
-
+const SaveScreenshotsToServer = false; // nie dziala
 // admin chat -- NIE DZIALA JAK COS
 const EnableStaffChatForwarding = false;
 const DiscordStaffChannelId = "000000000000000000";
