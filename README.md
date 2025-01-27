@@ -21,3 +21,6 @@ wrzuc ten skrypt do jakiegos folderu w resourcach swojego serwera FiveM, wejdz s
 "ensure skx_discordbot"
 
 ## to chyba wszystko, jak czegos nie wiesz to pisz w wiadomosci prywatnej. siemano <3
+
+
+ten rar stary jest jak cos, lepiej bez rara pobrac ;D
