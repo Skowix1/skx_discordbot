@@ -49,9 +49,13 @@ class Bot extends Client {
                 continue;
             }
             if (this.commands.has(command.name)) {
-                this.log.warn(`${file} używa takiego samego polecnenia, która została już zarejestrowana przez inne polecenie [pomijam]`);
+                this.log.warn(`${file} używa nazwy, która została już zarejestrowana przez inne polecenie [pomijanie]`);
                 continue;
             }
+            if (file.startsWith("qb-") && !this.QBCore) continue;
+            this.commands.set(command.name, command);
+            if (["MESSAGE", "USER"].includes(command.type)) delete command.description;
+            this.arrayOfCommands.push(command);
         }
     }
 
@@ -78,7 +82,7 @@ class Bot extends Client {
         const row = new MessageActionRow().addComponents(buttonList);
         if (interaction.deferred == false) await interaction.deferReply();
         const curPage = await interaction.editReply({
-            embeds: [pages[page].setFooter({ text: `Page ${page + 1} / ${pages.length}` })],
+            embeds: [pages[page].setFooter({ text: `Strona ${page + 1} / ${pages.length}` })],
             components: [row], fetchReply: true,
         });
         const filter = (i) => i.customId === buttonList[0].customId || i.customId === buttonList[1].customId;
