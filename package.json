@@ -1,24 +1,25 @@
 {
   "name": "skx_discordbot",
   "version": "7.3.0",
-  "description": "Advanced Discord Bot Allowlist that's simple to use",
+  "description": "Discord bot do fivema",
   "main": "server.js",
   "scripts": {
     "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zfbx/skx_discordbot.git"
+    "url": "git+https://github.com/Skowix1/skx_discordbot/.git"
   },
-  "author": "Tony#1275",
+  "author": "Skowix & Tony",
   "contributors": [
-    "zfbx (https://github.com/zfbx/)"
+    "Tony (https://github.com/zfbx/)",
+  "Skowix (https://github.com/Skowix1/)"
   ],
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
-    "url": "https://github.com/zfbx/skx_discordbot/issues"
+    "url": "https://github.com/Skowix1/skx_discordbot/issues"
   },
-  "homepage": "https://github.com/zfbx/skx_discordbot",
+  "homepage": "https://github.com/Skowix1/skx_discordbot/",
   "dependencies": {
     "discord.js": "github:zfbx/discord.js"
   },
