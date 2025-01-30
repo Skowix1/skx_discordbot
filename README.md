@@ -24,3 +24,5 @@ wrzuc ten skrypt do jakiegos folderu w resourcach swojego serwera FiveM, wejdz s
 
 
 ten rar stary jest jak cos, lepiej bez rara pobrac ;D
+bot jest z podstawki
+https://github.com/zfbx/zdiscord
