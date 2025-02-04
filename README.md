@@ -20,6 +20,13 @@ oplata zrobie ;D
 wrzuc ten skrypt do jakiegos folderu w resourcach swojego serwera FiveM, wejdz sobie w konsole wpisz "refresh" i nastepnie
 "ensure skx_discordbot"
 
+- w server.cfg wklej sobie to :D
+
+dodaj to do `server.cfg`
+
+```add_ace resource.skx_discordbot command allow```
+
+
 ## to chyba wszystko, jak czegos nie wiesz to pisz w wiadomosci prywatnej. siemano <3
 
 
