@@ -31,5 +31,4 @@ dodaj to do `server.cfg`
 
 
 ten rar stary jest jak cos, lepiej bez rara pobrac ;D
-bot jest z podstawki
-https://github.com/zfbx/zdiscord
+
