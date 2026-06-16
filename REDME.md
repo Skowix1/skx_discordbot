@@ -1,3 +1,7 @@
+# skx_discordbot
+Discord Bot do fivema by Skowix
+
+
 ## Discord Bot Discord do FiveM`a By Skowix___
 
 ## Instrukcja:
@@ -15,5 +19,12 @@ oplata zrobie ;D
 - Gdy wszystko skonfigurujesz, dodaj bota na serwer przy uzyciu linku wygnerowanego w discord dev portal, z full permisjami.
 wrzuc ten skrypt do jakiegos folderu w resourcach swojego serwera FiveM, wejdz sobie w konsole wpisz "refresh" i nastepnie
 "ensure skx_discordbot"
+
+- w server.cfg wklej sobie to :D
+
+dodaj to do `server.cfg`
+
+```add_ace resource.skx_discordbot command allow```
+
 
 ## to chyba wszystko, jak czegos nie wiesz to pisz w wiadomosci prywatnej. siemano <3
