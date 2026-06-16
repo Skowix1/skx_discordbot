@@ -28,7 +28,3 @@ dodaj to do `server.cfg`
 
 
 ## to chyba wszystko, jak czegos nie wiesz to pisz w wiadomosci prywatnej. siemano <3
-
-
-ten rar stary jest jak cos, lepiej bez rara pobrac ;D
-
